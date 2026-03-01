@@ -105,7 +105,7 @@ Health check: `GET http://localhost:8000/health`
 ---
 
 ## Exposing with ngrok
-
+ 
 Slack needs a public URL. Use [ngrok](https://ngrok.com/) to tunnel traffic to your local server:
 
 ```bash
@@ -183,7 +183,7 @@ More examples:
 ## Safety Guardrails
 
 - Only `SELECT` queries are executed — mutations are rejected.
-- Dangerous keywords (`INSERT`, `DROP`, `DELETE`, …) are blocked even in subqueries.
+- Dangerous keywords (`INSERT`, `DROP`, `DELETE`, …) are blocked even in subqueries. 
 - All results are capped at **20 rows** to avoid flooding Slack.
 - `temperature=0` keeps SQL generation deterministic.
 
