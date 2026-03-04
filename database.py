@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ---------------------------------------------------------------------------
-# Connection helper
+# Connection helper 
 # ---------------------------------------------------------------------------
 
 def _get_connection():
