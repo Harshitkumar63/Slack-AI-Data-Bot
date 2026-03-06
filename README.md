@@ -5,7 +5,7 @@ LangChain + Groq translate the question into SQL; the results are returned direc
 
 ---
 
-## Architecture 
+## Architecture
 
 ```
 Slack  ──▶  /slack/ask-data  ──▶  llm.py (LangChain + Groq)
